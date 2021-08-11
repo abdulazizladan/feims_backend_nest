@@ -6,8 +6,8 @@ const app_module_1 = require("./app.module");
 async function bootstrap() {
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
     const config = new swagger_1.DocumentBuilder()
-        .setTitle('Cats example')
-        .setDescription('The cats API description')
+        .setTitle('FEIMS')
+        .setDescription('FEIMS backend')
         .setVersion('1.0')
         .addTag('cats')
         .build();
